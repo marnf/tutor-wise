@@ -55,11 +55,19 @@ const Dashboard = () => {
 
                 </div>
             </div>
-            <div className=' bg-slate-300 w-1/3 border-black rounded'>
+            <div className='  w-1/3 border-black rounded'>
                 <div>
-                    monthly referer
+                    <h1>animation</h1>
                 </div>
-                <div> total earned</div>
+                <div className='bg-slate-300 rounded flex justify-between p-3 items-center'>
+                    <div>
+                        <p className='text-2xl'>Total Referrals</p>
+                        <p className='text-3xl'>22</p>
+                    </div>
+                    <div>
+                        <img src={pic1} alt="" />
+                    </div>
+                </div>
             </div>
 
         </div>

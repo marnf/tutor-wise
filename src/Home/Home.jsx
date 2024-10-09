@@ -7,12 +7,9 @@ const Home = () => {
     return (
         <div>
             <Header></Header>
-            
-            <div className='flex '>
-                <LeftNavigationBar ></LeftNavigationBar>
-                <Outlet></Outlet>
-            </div>
-            
+            <Outlet></Outlet>
+
+
         </div>
     );
 };
